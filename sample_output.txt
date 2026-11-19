@@ -1,0 +1,15 @@
+DISTRIBUTED PROCESS COMMUNICATION SIMULATOR
+---------------------------------------------
+P1 sends a message to P2: Hello P2
+P2 sends a message to P3: Hello P3
+P3 sends a message to P4: Hello P4
+P4 sends a message to P1: Communication completed
+
+MESSAGE RECEIVING
+---------------------------------------------
+P1 received from P4: Communication completed
+P2 received from P1: Hello P2
+P3 received from P2: Hello P3
+P4 received from P3: Hello P4
+
+Communication completed successfully.
